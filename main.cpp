@@ -28,10 +28,7 @@ cin >> vidpat [1];
 cout << "ievadi patereto degvielas daudzumu litros\n";
 cin >> vidpat [2];
 cout <<"TABULA\n";
-//cout << vidpat [1] << endl;//km
-//cout << vidpat [2] << endl;//l
 vidpat [3] = (vidpat [2] / vidpat[1]) *100;
-//cout << vidpat[3]<<"l/100km ";
  vidpatrez [0][0]="|km|";
  vidpatrez [0][1]=" |L|";
  vidpatrez [0][2]="| l/100km|";
